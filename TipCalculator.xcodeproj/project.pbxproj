@@ -14,6 +14,7 @@
 		E9798D041D31867C0032CC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9798D021D31867C0032CC89 /* LaunchScreen.storyboard */; };
 		E9798D0F1D31867C0032CC89 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9798D0E1D31867C0032CC89 /* TipCalculatorTests.swift */; };
 		E9798D1A1D31867D0032CC89 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9798D191D31867D0032CC89 /* TipCalculatorUITests.swift */; };
+		E9798D281D3187200032CC89 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9798D271D3187200032CC89 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E9798D151D31867D0032CC89 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9798D191D31867D0032CC89 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		E9798D1B1D31867D0032CC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9798D271D3187200032CC89 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E9798D001D31867C0032CC89 /* Assets.xcassets */,
 				E9798D021D31867C0032CC89 /* LaunchScreen.storyboard */,
 				E9798D051D31867C0032CC89 /* Info.plist */,
+				E9798D271D3187200032CC89 /* TipCalculatorModel.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9798D281D3187200032CC89 /* TipCalculatorModel.swift in Sources */,
 				E9798CFC1D31867C0032CC89 /* ViewController.swift in Sources */,
 				E9798CFA1D31867C0032CC89 /* AppDelegate.swift in Sources */,
 			);
